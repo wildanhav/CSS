@@ -1,0 +1,86 @@
+
+
+
+/* Tag HTML dapat digunakan sebagai selector */
+body {
+	font-family: arial;
+	color: white;
+	background-color: grey;
+}
+
+
+
+/* Tanda koma berguna untuk menyatakan "dan" */
+h1, h2 {
+	font-variant: small-caps;
+}
+
+a {
+	color: yellow;
+}
+
+
+
+/* Tag yang dipilih sebagai selector adalah semua Tag a yang berada di dalam Tag ol */
+ol a {
+	color: orange;
+}
+
+
+
+/* Tag yang dipilih sebagai selector adalah semua Tag a yang berada di dalam Tag li, dan yang berada di dalam Tag ul */
+ul li a {
+	color: lightgreen;
+}
+
+
+
+/* Tag a tidak terpilih, karena Tag a tidak dapat mewarisi(inherit) property pada Tag ol */
+ol {
+	color: lightblue;
+}
+
+ul li {
+	color: pink
+}
+
+dt, dl a {
+	color: black;
+}
+
+
+
+
+/* tanda . digunakan untuk menyatakan class */
+.topheading {
+	font-size: 50px;
+}
+
+.indent1 {
+	text-indent: 20px;
+}
+
+.kuning {
+	color: yellow;
+}
+
+
+
+/* Berikut untuk menyatakan Tag p yang ber class kuning */
+p.kuning {
+	font-style: italic;
+}
+
+
+
+/* Tanda # digunakan untuk menyatakan id */
+#bolding {
+	font-weight: bold;
+}
+
+
+
+/* di bawah ini menyatakan Tag p, yang ber class kuning, dan bed id bolding */
+p.kuning#bolding {
+	color: orange;
+}

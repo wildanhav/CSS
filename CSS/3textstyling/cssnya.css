@@ -1,0 +1,31 @@
+
+/*propety untuk text styling adalah color: ; , text-align: ; , text-indent: ; , text-decoration: ; , text-transform: ;
+ , letter-spacing: ; , word-spacing: ;*/
+ /*text-align: left, center, right, justify;*/
+ /*text-decoration: none, underline, overline, line-through;*/
+ /*text-transform: uppercase, lowercase, capitalize;*/
+
+body {
+	font-family: arial;
+	font-size: 18px;
+	margin-right: 25%;
+	margin-left: 25%;
+}
+h1 {
+	text-align: center;
+	font-variant: small-caps;
+	letter-spacing: 20px;
+}
+p {
+	word-spacing: 20px;
+	text-align: justify;
+	text-indent: 50px;
+	text-transform: capitalize;
+	word-spacing: 10px;
+}
+a {
+	text-decoration: none;
+}
+#p2 {
+	text-align: right;
+}

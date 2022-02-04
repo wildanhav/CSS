@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Pseudo Class - Posisi 1</title>
+<!-- selector:first-child {}, selector:last-child {}. selector:nth-child() {} -->
+	<style type="text/css">
+		ol.fld li:first-child {
+			color: red;
+		}
+		ol.lld li:last-child {
+			color: red;
+		}
+		ol.nldodd li:nth-child(odd) {
+			color: red;
+		}
+		ol.nldeven li:nth-child(even) {
+			color: red;
+		}
+		ol.nldn li:nth-child(3n+1) {
+			color: red;
+		}
+		ol.linknldn li:nth-child(3n+1) a:hover {
+			color: red;
+		}
+	</style>
+</head>
+<body>
+
+<!-- :first-child digunakan untuk memilih child pertama dari parent yang dijadikan selectornya -->
+<p>Berikut menggunakan selector yang dipasangi :first-child</p>
+	<ol class="fld">
+		<li>Sample</li>
+		<li>Sample</li>
+		<li>Sample</li>
+		<li>Sample</li>
+		<li>Sample</li>
+		<li>Sample</li>
+	</ol>
+
+<!-- :last-child digunakan untuk memilih child terakhir dari parent yang dijadikan selectornya -->
+<p>Berikut menggunakan selector yang dipasangi :last-child</p>
+	<ol class="lld">
+		<li>Sample</li>
+		<li>Sample</li>
+		<li>Sample</li>
+		<li>Sample</li>
+		<li>Sample</li>
+		<li>Sample</li>
+	</ol>
+
+<!-- :nth-child digunakan untuk memilih child ke-n dari parent yang dijadikan selectornya -->
+<p>Berikut menggunakan selector yang dipasangi :nth-child(odd)</p>
+	<ol class="nldodd">
+		<li>Sample</li>
+		<li>Sample</li>
+		<li>Sample</li>
+		<li>Sample</li>
+		<li>Sample</li>
+		<li>Sample</li>
+	</ol>
+<p>Berikut menggunakan selector yang dipasangi :nth-child(even)</p>
+	<ol class="nldeven">
+		<li>Sample</li>
+		<li>Sample</li>
+		<li>Sample</li>
+		<li>Sample</li>
+		<li>Sample</li>
+		<li>Sample</li>
+	</ol>
+<p>Berikut menggunakan selector yang dipasangi :nth-child(3n+1)</p>
+	<ol class="nldn">
+		<li>Sample</li>
+		<li>Sample</li>
+		<li>Sample</li>
+		<li>Sample</li>
+		<li>Sample</li>
+		<li>Sample</li>
+		<li>Sample</li>
+		<li>Sample</li>
+		<li>Sample</li>
+		<li>Sample</li>
+		<li>Sample</li>
+	</ol>
+<p>Berikut menggunakan selector a yang dipasangi :nth-child(3n+1)</p>
+	<ol class="linknldn">
+		<li><a href="0">link</a>Sample</li>
+		<li><a href="0">link</a>Sample</li>
+		<li><a href="0">link</a>Sample</li>
+		<li><a href="0">link</a>Sample</li>
+		<li><a href="0">link</a>Sample</li>
+		<li><a href="0">link</a>Sample</li>
+		<li><a href="0">link</a>Sample</li>
+		<li><a href="0">link</a>Sample</li>
+		<li><a href="0">link</a>Sample</li>
+		<li><a href="0">link</a>Sample</li>
+		<li><a href="0">link</a>Sample</li>
+		<li><a href="0">link</a>Sample</li>
+	</ol>
+</body>
+</html>

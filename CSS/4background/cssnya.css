@@ -1,0 +1,21 @@
+
+/*property untuk background ada background-color, background-image, background-position, background-repeat*/
+/*background-image: url(lokasi gambar);*/
+/*background-position: top right;*/
+/*background-repeat: no-repeat atau repeat-x dll.*/
+
+h1 {
+	text-align: center;
+	font-size: 50px;
+	letter-spacing: 20px;
+	font-variant: small-caps;
+}
+h2 {
+	text-align: center;
+	font-size: 30px;
+	letter-spacing: 15px;
+	font-variant: small-caps;
+}
+body {
+	background-image: url(GambarBackground/food.png);
+}

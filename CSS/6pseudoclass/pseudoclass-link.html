@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Pseudo Class - Link</title>
+	<style type="text/css">
+
+		/*pseudo-class yang berhubungan dengan link*/
+		/*pseudo-class ada selector:link {}, selector:visited {}, selector:hover {}, selector:active*/
+		.google {
+			color: white;
+			text-decoration: none;
+			font-variant: small-caps;
+			background-color: black;
+			padding: 10px 20px;
+		}
+		.google:hover {
+			background-color: grey;
+		}
+		.google:active {
+			padding: 8px 16px;
+		}
+
+		.youtube {
+			font-family: arial;
+			color: white;
+			text-decoration: none;
+			font-variant: small-caps;
+			background-color: darkred;
+			padding: 10px 20px;
+		}
+		.youtube:hover {
+			background-color: pink;
+		}
+		.youtube:active {
+			padding: 8px 16px;
+		}
+	</style>
+
+</head>
+<!-------------------------------------------------------------------------------------------------------------------------------------->
+<body>
+	<br>
+	<h1><a href="https://www.google.com" target="_blank" class="google">Hello Google!</a></h1>
+	<br>
+	<h1><a href="https://youtube.com" target="_blank" class="youtube">Hello YouTube!</a></h1>
+
+</body>
+</html>

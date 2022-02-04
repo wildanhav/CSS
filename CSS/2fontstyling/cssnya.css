@@ -1,0 +1,12 @@
+
+/*Beberapa property yang dapat digunakan, yaitu font-style: , font-variant: , font-weight: , font-size: , line-height: , font-family: */
+
+h1, h2 {
+	color: darkblue;
+}
+p {
+	font-size: 14px;
+	line-height: 20px;
+}
+h1, h2, p {
+	font-family: arial, sans-serif;}
